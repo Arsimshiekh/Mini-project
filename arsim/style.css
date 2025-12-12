@@ -1,0 +1,48 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+:root{
+    --colorPrimary:#242424;
+    --colorSecondary:#545454;
+    --colorWarning:#FCFC62;
+    --colorError:#A4031F;
+    --heading:#0f3a4b;
+    --body-color:#89c2d9;
+}
+hr{
+    height: 2px;
+    box-shadow: 0 0 20px 1px #000000;
+}
+
+body{
+     font-family: "Poppins", sans-serif;
+     text-align: center;
+     background-color:var(--body-color);
+}
+
+.main-heading{
+    color:var(--heading);
+    font-size: 35px;
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   gap: 10px;
+}
+.input{
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+
